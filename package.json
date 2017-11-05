@@ -1,0 +1,30 @@
+{
+  "name": "ionic-agentsection-postgraphql",
+  "version": "1.0.0",
+  "description": "GraphQL server for PostgreSQL based on postgraphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/.bin/postgraphql postgraphql --connection postgres://maximilianosuster@localhost:5432/smartexpose_presentation --schema public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartexpose/ionic-agentsection-postgraphql.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "PostgreSQL"
+  ],
+  "author": "Maximiliano Suster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartexpose/ionic-agentsection-postgraphql/issues"
+  },
+  "homepage": "https://github.com/smartexpose/ionic-agentsection-postgraphql#readme",
+  "devDependencies": {
+    "postgraphql": "^3.5.1"
+  },
+  "dependencies": {
+    "postgraphql": "^3.5.1"
+  }
+}
