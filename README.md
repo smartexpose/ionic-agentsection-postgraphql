@@ -15,10 +15,10 @@ $ postgraphql --help
 
 **Install `nmig` to migrate MySQL database to PostgreSQL**
 ```
-$ git clone ionic-agentsection-postgraphql
-$ cd nmig
+$ git clone https://github.com/smartexpose/ionic-agentsection-nmig
+$ cd ionic-agentsection-nmig
 
-# edit config.json => exclude_tables according to the MySQL database
+# edit config.json and extra_config.json => exclude_tables according to the MySQL database
 $ npm install
 ````
 
